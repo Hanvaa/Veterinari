@@ -1,0 +1,40 @@
+
+#footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 95px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#btnElenco{
+    margin-left: 10px;
+    float: left;
+}
+
+#imgMenu{
+    width: 85px;
+    height: 85px;
+    
+}
+
+#btnPag2{
+    margin-right: 10px;
+    float: right;
+}
+
+#imgCheck{
+    width: 85px;
+    height: 85px;
+}
+#space{
+    width: 1530px;
+    display: inline-block;
+}
+
+#titolo{
+    text-align: center;
+}
+
