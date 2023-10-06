@@ -12,14 +12,19 @@ window.onload = async function(){
    
     var tabPazienti = document.getElementById("tabella");
     for(let paziente of risposta.pazienti){
+    let data3 = (2023 - parseInt(paziente.dataNascita.split("-")[0]))
+    console.log(data3);
     let tabella = `
     <tr class="trEvent" >
       <td>${paziente.nomePaziente}</td>
       <td>${paziente.cognomeProprietario}</td>
       <td>${paziente.dataNascita}</td>
       <td>${paziente.visita}</td>
+      <td>${data3}</td>
     </tr>
     `;
+
+    
 
     tabPazienti.innerHTML += tabella;
 
